@@ -1,6 +1,5 @@
-pip install opencv--python
-pip install pillow
-pip install scipy
-pip install tensorflow
-pip install protobuf
-pip install streamlit
+streamlit
+numpy
+opencv-python
+tensorflow 
+Pillow 
