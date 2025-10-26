@@ -1,5 +1,7 @@
 streamlit
 numpy
-opencv-python
-tensorflow
+# Pinning TensorFlow to a stable version
+tensorflow==2.16.1
+# Using a specific, widely compatible OpenCV version
+opencv-python==4.9.0.80 
 Pillow
