@@ -3,7 +3,8 @@ numpy
 tensorflow==2.20.0   # Use the explicitly available version
 opencv-python-headless
 pillow==11.3.0
-protobuf==6.33.0
+protobuf
+
 
 
 
