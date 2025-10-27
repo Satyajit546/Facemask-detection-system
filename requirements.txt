@@ -1,5 +1,6 @@
 streamlit
 numpy
 tensorflow==2.20.0   # Use the explicitly available version
-opencv-python
+opencv-python-headless
+
 
