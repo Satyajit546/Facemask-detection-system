@@ -1,9 +1,10 @@
 streamlit==1.50.0
 numpy
-tensorflow==2.20.0   # Use the explicitly available version
+tensorflow==2.20.0
+keras
 opencv-python-headless
 pillow
-protobuf
+
 
 
 
