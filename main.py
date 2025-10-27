@@ -9,7 +9,7 @@ import warnings
 warnings.filterwarnings("ignore", category=FutureWarning)
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 facemodel=cv2.CascadeClassifier('face.xml')
-maskmodel = load_model('mask.keras', compile=False)
+maskmodel = load_model('mask.h5', compile=False)
 st.title("Face mask Detection system")
 
 choice=st.sidebar.selectbox('My Menu',('Home','Image','Video','Camera'))
@@ -156,5 +156,6 @@ elif (choice=="Camera"):
             window.image(frame, channels="BGR")
 
         vid.release()
+
 
 
